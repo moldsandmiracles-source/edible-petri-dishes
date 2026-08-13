@@ -1,5 +1,5 @@
 const buyLink =
-  "mailto:mold@dashaplesen.com?subject=Edible%20Petri%20Dishes%20playbook&body=Hi%20Dasha%2C%20I%20want%20to%20buy%20Edible%20Petri%20Dishes%20for%2055%20EUR.";
+  "https://dashaplesen-shop.fourthwall.com/en-eur/products/tasty-mold-playbook";
 
 const lessons = [
   "Universal agar base",
@@ -51,9 +51,9 @@ const faqs = [
   },
 ];
 
-function BuyButton({ children = "Get the playbook - EUR 55" }) {
+function BuyButton({ children = "Get the playbook - EUR 80" }) {
   return (
-    <a className="buy-button" href={buyLink}>
+    <a className="buy-button" href={buyLink} rel="noreferrer" target="_blank">
       {children}
     </a>
   );
@@ -96,7 +96,7 @@ export default function Home() {
           />
           <div className="price-note">
             <span>Price</span>
-            <strong>EUR 55</strong>
+            <strong>EUR 80</strong>
           </div>
         </div>
       </section>
@@ -176,7 +176,7 @@ export default function Home() {
             and texture ingredients. The playbook shows how a fork, comb,
             toothbrush, fruit, rice paper or cake powder can become a mold tool.
           </p>
-          <BuyButton>Buy the digital playbook - EUR 55</BuyButton>
+          <BuyButton>Buy the digital playbook - EUR 80</BuyButton>
         </div>
       </section>
 
@@ -215,12 +215,12 @@ export default function Home() {
           Get the 20-page Edible Petri Dishes playbook by Dasha Plesen and
           spend a few hours inside color, texture and harmless sensory chaos.
         </p>
-        <BuyButton>Get it now - EUR 55</BuyButton>
+        <BuyButton>Get it now - EUR 80</BuyButton>
       </section>
 
       <div className="mobile-buy">
         <span>Edible Petri Dishes</span>
-        <BuyButton>EUR 55</BuyButton>
+        <BuyButton>EUR 80</BuyButton>
       </div>
     </main>
   );
