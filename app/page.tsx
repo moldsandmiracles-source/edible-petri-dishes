@@ -23,8 +23,8 @@ const outcomes = [
     text: "Learn how to build suspicious colonies, folds, slime, fuzz and translucent membranes without growing real mold.",
   },
   {
-    title: "Use ordinary ingredients strangely",
-    text: "Turn agar, fondant, rice paper, fruit, powders and cotton candy into tiny edible ecosystems.",
+    title: "Make edible materials look suspicious",
+    text: "Use agar-agar, fondant, rice paper, fruit, powders and cotton candy to build tiny edible ecosystems.",
   },
   {
     title: "Stop worshipping perfect",
