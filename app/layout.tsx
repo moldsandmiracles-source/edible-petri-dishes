@@ -38,7 +38,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title: "Edible Petri Dishes by Dasha Plesen",
       description:
-        "Recreate microbiological textures with edible ingredients. Digital playbook, EUR 80.",
+        "Recreate microbiological textures with edible ingredients. Digital playbook, $80.",
       images: [ogImage],
     },
   };
